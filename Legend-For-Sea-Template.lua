@@ -36,4 +36,10 @@ local section5 = page5:addSection("Coming Soon..")
 
 local section6 = page6:addSection("Coming Soon..")
 
-local section7 = page7:addSection("Coming Soon..")
+local section7 = page7:addSection("Credits")
+
+local section8 = page7:addSection("Thx For Use Sightless Hub")
+
+section7:addButton("Copy Link Discord", function()
+	setclipboard("https://discord.gg/TeSbFN6Rus")
+end)
